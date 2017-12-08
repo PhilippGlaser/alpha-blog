@@ -1,6 +1,7 @@
 require 'test_helper'
 
 class CategoriesControllerTest < ActionController::TestCase
+  
   def setup
     @category = Category.create(name: "sports")
     @user = User.create(username: "John", email: "john@wx.com", password: "password", admin: true)
